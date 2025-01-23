@@ -358,6 +358,9 @@ text-align: center;
         gap: 15px;
         background-color: none;
     }
+    .banner{
+         background-size:cover ;
+    }
     #srujan{
         font-size: larger;
         font-style: italic;
@@ -369,3 +372,8 @@ text-align: center;
         font-size: 30px;
     }
 } 
+@media (max-width: 767px) {
+    .banner {
+        background-size: contain;
+    }
+}
